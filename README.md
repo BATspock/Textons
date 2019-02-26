@@ -10,10 +10,10 @@ Three more features are added to the end of each vector. These features are row,
 K-Means using Eculidean distance is used to segment image.
 
 inputs:
-1.image ==> numpy array (grayscaled image)
-2.number of cluster centers ==> integer
-3.number of iterations ==> integers
-4.type of colors assignment in the final image ==> integer 0 for 'RANDOM' or 1 for'DEFINED'
+..1.image ==> numpy array (grayscaled image)
+..2.number of cluster centers ==> integer
+..3.number of iterations ==> integers
+..4.type of colors assignment in the final image ==> integer 0 for 'RANDOM' or 1 for'DEFINED'
             
 output:
 * numpy array of image after k means wiht LM filters
@@ -33,7 +33,7 @@ from textons_utils import Textons
 im = cv2.imread('path_to_image', 0)
 textons = Textons(im, number of clusters, number of iterations, assignemnet type)
 tex = textons.textons()
-cv2.imshow("check", tex)
+cv2.imshow("window name", tex)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
