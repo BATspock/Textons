@@ -18,10 +18,8 @@ inputs:
 output:
 * numpy array of image after k means wiht LM filters
             
-assignment type 'RANDOM' is suited more for higher number of clusters
-
-assignment type 'DEFINED' is better suited when number of clusters is less than 15
-
+Assignment type 'RANDOM' is suited more for higher number of clusters,
+assignment type 'DEFINED' is better suited when number of clusters is less than 15,
 however the assignemnt types do not impact the performance of the code in any significant way
 
 
