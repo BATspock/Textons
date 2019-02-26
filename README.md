@@ -10,13 +10,13 @@ Three more features are added to the end of each vector. These features are row,
 K-Means using Eculidean distance is used to segment image.
 
 inputs:
-            1.image ==> numpy array (grayscaled image)
-            2.number of cluster centers ==> integer
-            3.number of iterations ==> integers
-            4.type of colors assignment in the final image ==> integer 0 for 'RANDOM' or 1 for'DEFINED'
+1.image ==> numpy array (grayscaled image)
+2.number of cluster centers ==> integer
+3.number of iterations ==> integers
+4.type of colors assignment in the final image ==> integer 0 for 'RANDOM' or 1 for'DEFINED'
             
 output:
-            numpy array of image after k means wiht LM filters
+* numpy array of image after k means wiht LM filters
             
 assignment type 'RANDOM' is suited more for higher number of clusters
 
