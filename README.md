@@ -49,7 +49,3 @@ cv2.destroyAllWindows()
 ```
 
 Results with cluster values as 7 and iterations as 10
-
-![Test Image](https://imgur.com/a/YTvLuW7)
-
-![Resulting Image] (https://imgur.com/a/uzqdvJD) 
