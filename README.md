@@ -36,7 +36,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-example 
+Example 
 ```
 from textons_utils import Textons
 
@@ -47,3 +47,9 @@ cv2.imshow("check", tex)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+
+Results with cluster values as 7 and iterations as 10
+
+![Test Image](https://imgur.com/a/YTvLuW7)
+
+![Resulting Image] (https://imgur.com/a/uzqdvJD) 
