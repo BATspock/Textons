@@ -51,3 +51,6 @@ cv2.destroyAllWindows()
 Results with cluster values as 7 and iterations as 10
 
 ![original image](https://github.com/BATspock/Textons/blob/master/image.jpg) ![resulting image](https://github.com/BATspock/Textons/blob/master/result.png)
+
+
+*  Advisable to keep number of iterations high (recommended>=100) for reproducibility of result
