@@ -3,6 +3,7 @@ import sys
 import numpy as np
 import warnings
 warnings.filterwarnings('error')
+np.random.seed(128)
 
 class KMeansLMfilters(object):
     """
