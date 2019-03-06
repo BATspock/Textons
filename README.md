@@ -1,4 +1,7 @@
 # Textons - Texture Based Image Segmentation
+
+In case of colored images [!please use texton model incorporating color as a feature](https://github.com/BATspock/Textons-colors)
+
 Textons using LM filters
 
 The code here is an implementation of textons using LM filters.
@@ -54,6 +57,8 @@ Results with cluster values as 7 and iterations as 10
 
 
 *  Advisable to keep number of iterations high (recommended>=100) for reproducibility of result
+
+#### Added feature to generate reproducible results
 
 ### To-Do
 * Add feature to stop k means on the basis of accuracy
