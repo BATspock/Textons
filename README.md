@@ -1,6 +1,6 @@
 # Textons - Texture Based Image Segmentation
 
-In case of colored images [!please use texton model incorporating color as a feature](https://github.com/BATspock/Textons-colors)
+In case of colored images [please use texton model incorporating color as a feature](https://github.com/BATspock/Textons-colors)
 
 Textons using LM filters
 
