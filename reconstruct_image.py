@@ -1,6 +1,7 @@
 import cv2
 import sys
 import numpy as np
+np.random.seed(128)
 
 class reconstructImage(object):
     def __init__(self, feature_vector, image, number_of_centers, assignment_type='RANDOM'):
